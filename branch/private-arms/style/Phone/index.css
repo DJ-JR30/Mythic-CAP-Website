@@ -1,3 +1,22 @@
-body {
-    font-size: 15pt;
+:root {
+  --Topbar-BG-Color: #616161;
 }
+
+
+
+@media only screen and (max-width: 500px) {
+  body {
+    background: url("../../../../assets/imgs/Background/private-suit-bg.jpg");
+    background-size: cover;
+  }
+  .topbar-div {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 175px;
+    background-color: var(--Topbar-BG-Color);
+  }
+}
+
+

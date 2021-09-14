@@ -1,0 +1,66 @@
+:root {
+  --Bg-Color: #00000096;
+}
+
+
+
+@media only screen and (max-width: 500px) {
+  body {
+    background: url("../../../../assets/imgs/Background/night.jpg");
+    background-size: cover;
+  }
+  
+  
+  
+  .bg {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    width: 95.3%;
+    height: 97.3%;
+    border-radius: 15px;
+    background-color: var(--Bg-Color);
+  }
+  .bg-title {
+    color: white;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    text-align: center;
+  }
+  
+  
+  
+  
+  
+  
+  .data-bg {
+    display: hidden;
+    visibility: hidden;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    width: 95.3%;
+    height: 97.3%;
+    border-radius: 15px;
+    background-color: var(--Bg-Color);
+  }
+  .data-bg-title {
+    color: white;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    text-align: center;
+  }
+  
+  
+  
+  .pc-div {
+    display: hidden;
+    visibility: hidden;
+  }
+}
+
+
